@@ -1,0 +1,766 @@
+:root {
+  --black: #3a3a3a;
+  --white: #fff;
+  --green: #49b293;
+  --yellow: #e9ed00;
+}
+nav{
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  
+  background: #1192e3;
+}
+nav .wrapper{
+  position: relative;
+  max-width: 1300px;
+  padding: 0px 0px;
+  height: 70px;
+  line-height: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .wrapper .icon{
+  width: 30px;
+}
+.wrapper .nav-links{
+  display: inline-flex;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 9px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.nav-links li a:hover{
+  background: #1192e3;
+}
+.nav-links .mobile-item{
+  display: none;
+}
+.nav-links .drop-menu{
+  position: absolute;
+  background: #1192e3;
+  width: 180px;
+  line-height: 45px;
+  top: 85px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+.nav-links li:hover .drop-menu,
+.nav-links li:hover .mega-box{
+  transition: all 0.3s ease;
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.book_section {
+    position: relative;
+
+  }
+.book_section .h-100{
+  margin-top: 10%;
+}
+  .book_section .form_container p {
+    margin-left: 0px;
+    /* margin-right: 100px;
+    margin-bottom: 5px; */
+  }
+  .book_section .form_container .form-control {
+    width: 50%;
+    border: black;
+    height: 30px;
+    /* width: 500px; */
+    margin-left:150px;
+    /* padding-right: 105px; */
+    border: 1px solid #999;
+    color: #000000;
+    border-radius:15px;
+  }
+  .book_section .form_container .form-control1 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left:50px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 0px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .form-control2 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left:58px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 0px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .form-control3 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left:40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 0px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .form-control4 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left:35px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 0px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .form-control5 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left:70px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 0px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+
+  .book_section .form_container .form-control7 {
+    width: 50%;
+    border: black;
+    height: 90px;
+    width: 500px;
+    margin-left: 60px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .biodata1 {
+    width: 30%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 64px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .biodata2 {
+    width: 30%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 98px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .biodata3 {
+    width: 30%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 56px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .biodata4 {
+    width: 30%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 28px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .biodata5 {
+    width: 30%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 16px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .biodata6 {
+    width: 30%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 58px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .biodata7 {
+    width: 30%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 72px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+    .book_section .form_container .aset1 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 60px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .aset2 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 92px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .aset3 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .aset4 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 23px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .aset5 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .aset6 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 58px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .aset7 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 75px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .dokumen1 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 75px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .dokumen2 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 110px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .dokumen3 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 113px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .dokumen4 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 104px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .dokumen5 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 500px;
+    margin-left: 85px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+
+  .book_section  .keluarga1 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .keluarga2 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 103px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .keluarga3 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 78px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .keluarga4 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 162px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .keluarga5 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 137px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .keluarga6 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 120px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .keluarga7 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 90px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .keluarga8 {
+    width: 50%;
+    border: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 62px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 105px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius:15px;
+    outline: black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .book_section .form_container .pendukung1{
+    margin-top: 84px;
+  }
+  .book_section .form_container .pendukung2{
+    margin-top: 74px;
+  }
+  .book_section .form_container .pendukung3{
+    margin-top: 10px;
+  }
+
+  .btn-get {
+    font-weight: 500;
+    font-size: 14px;
+    /* letter-spacing: 0px; */
+    /* display: inline-block; */
+    padding: 12px 36px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    background: #f6ff00;
+    box-shadow: #288BD3;
+    margin-left: 60%;
+  }
+  .simpan {
+    font-weight: 500;
+    font-size: 14px;
+    /* letter-spacing: 0px; */
+    /* display: inline-block; */
+    padding: 12px 36px;
+    border-radius: 50px;
+    /* transition: 0.5s; */
+    color: rgb(0, 0, 0);
+    background: #0af702;
+    box-shadow: #000000;
+    margin-left: 10px;
+    /* margin-bottom: 100%; */
+  }
+  .bg{
+    background-color: yellow;
+    width: 650px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+  }
+  .book_section .form_container .gambar{
+    width: 400px;
+    height: 600px;
+  }
+  
